@@ -37,7 +37,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             insertDrink(db, "Cappuccino", "Espresso, hot milk and steamed-milk foam",
                     2);
             insertDrink(db, "Filter", "Our best drip coffee", 3);
-            insertDrink(db, "Macchiato", "macchiato is equal parts espresso and steamed milk.", 4);
+            insertDrink(db, "Macchiato", "macchiato, equal parts espresso and steamed milk.", 4);
 
         }
         if (oldVersion < 2) {
